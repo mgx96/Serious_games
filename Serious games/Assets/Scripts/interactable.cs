@@ -4,7 +4,7 @@ public class interactable : MonoBehaviour
 {
     public float radius = 3f;
     Transform player;
-    bool isFocus = false;
+   // bool isFocus = false;
 
     public virtual void Interact()
     {
@@ -18,10 +18,14 @@ public class interactable : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, radius);
     }
 
-    public Update ()
+    public void Update ()
     {
         float distance = Vector3.Distance(player.position, transform.position);
-        if (distance <= radius) Interact();
+        if (distance <= radius)
+        {
+            Interact();
+        }
+
     }
 
 
