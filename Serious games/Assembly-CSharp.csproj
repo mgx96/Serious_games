@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\TestMoving.cs" />
      <Compile Include="Assets\Scripts\interactable.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Projects/NoTime/Serious_games/Serious games/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
