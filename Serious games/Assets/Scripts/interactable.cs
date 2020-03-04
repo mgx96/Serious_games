@@ -6,6 +6,6 @@ public class interactable : MonoBehaviour
 
     void OnDrawGizmosSelected ()
     {
-        Gizmos
+        
     }
 }
