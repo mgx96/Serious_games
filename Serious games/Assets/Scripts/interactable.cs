@@ -5,14 +5,16 @@ public class interactable : MonoBehaviour
     public float radius = 3f;
     public Transform player;
     bool interacting = false;
-    // bool isFocus = false;
+    bool pressed = false;
+    public GameObject window;
+    public GameObject press;
+    
 
     public virtual void Interact()
     {
 
-        //here is the actual interaction, just call the method
+        //ACTUAL INTERACTION
         Debug.Log("interact");
-
 
     }
 
@@ -28,30 +30,29 @@ public class interactable : MonoBehaviour
     {
 
         float distance = Vector3.Distance(player.position, transform.position);
+
         if ((distance <= radius) && (interacting == false))
         {
             Interact();
             interacting = true;
         }
+
         if (distance > radius) 
         {
-            interacting = false; 
+            interacting = false;    
+            window.SetActive(false);
         }
 
+        if (interacting)
+        {
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                Debug.Log("you pressed something");
+                pressed = true;
+                window.SetActive(true);
+                press.SetActive(false);
+            }
+        }
     }
-
-
-    /* FOCUS MECHANIC
-     * 
-    public void Focused (Transform playerTransform)
-    {
-        isFocus = true;
-        player = playerTransform;
-
-    }
-    public void Defocused ()
-    {
-        isFocus = false;
-        player = null;
-    }*/
 }
