@@ -55,4 +55,9 @@ public class interactable : MonoBehaviour
             }
         }
     }
+
+    public bool getInteracting()
+    {
+        return interacting;
+    }
 }
