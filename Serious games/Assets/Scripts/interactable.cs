@@ -5,7 +5,7 @@ public class interactable : MonoBehaviour
     public float radius = 3f;
     public Transform player;
     bool interacting = false;
-    bool pressed = false;
+    public bool pressed = false;
     public GameObject window;
     public GameObject press;
     
@@ -15,6 +15,7 @@ public class interactable : MonoBehaviour
 
         //ACTUAL INTERACTION
         Debug.Log("interact");
+        
 
     }
 
