@@ -29,17 +29,10 @@ public class GameManager : MonoBehaviour
             {
                 player_camera.GetComponent<PlayerLook>().UnlockCursor();
             }
+        }
 
 
-        }
-        for (int i = 0; i < interactables.Length; i++)
-        {
-            if (interactables[i].GetComponent<interactable>().getInteracting() && schedule_close)
-            {
-                player_camera.GetComponent<PlayerLook>().LockCursor();
-            }
-        }
-        if(schedule_close)
+        if (schedule_close)
         {
             player_camera.GetComponent<PlayerLook>().LockCursor();
             schedule_window.GetComponent<closeWindow>().setWindowClose(false);
