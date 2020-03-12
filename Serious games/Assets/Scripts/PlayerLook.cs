@@ -8,7 +8,7 @@ public class PlayerLook : MonoBehaviour
     [SerializeField] private float mouseSensitivity;
     [SerializeField] private Transform playerBody;
     private float xAxisClamp;
-
+    bool locked;
     private void Awake()
     {
         LockCursor();
@@ -16,14 +16,26 @@ public class PlayerLook : MonoBehaviour
         xAxisClamp = 0.0f;
     }
 
-    private void LockCursor()
+    public void LockCursor()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        locked = true;
+    }
+
+    public void UnlockCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        locked = false;
     }
 
     private void Update()
     {
-        CameraRotation();
+        if (locked)
+        {
+            CameraRotation();
+        }
+
+
     }
 
     private void CameraRotation()
