@@ -20,9 +20,16 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < interactables.Length; i++)
         {
-            if (interactables[i].GetComponent<interactable>().getInteracting())
+            if (interactables[i].GetComponent<interactable>().getInteracting() && Input.GetButtonDown("Jump"))
             {
                 player_camera.GetComponent<PlayerLook>().UnlockCursor();
+            }
+        }
+        for(int i = 0; i < interactables.Length; i++)
+        {
+            if (interactables[i].GetComponent<interactable>().getInteracting() && Input.GetMouseButtonDown(0))
+            {
+                player_camera.GetComponent<PlayerLook>().LockCursor();
             }
         }
     }
