@@ -9,6 +9,9 @@ public class GameManager : MonoBehaviour
     public GameObject player_camera;
     public GameObject[] interactables;
 
+    public GameObject schedule_window;
+
+    bool schedule_close;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,19 +21,32 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        schedule_close = schedule_window.GetComponent<closeWindow>().getWindowClose();
+
         for (int i = 0; i < interactables.Length; i++)
         {
             if (interactables[i].GetComponent<interactable>().getInteracting() && Input.GetButtonDown("Jump"))
             {
                 player_camera.GetComponent<PlayerLook>().UnlockCursor();
             }
+
+
         }
-        for(int i = 0; i < interactables.Length; i++)
+        for (int i = 0; i < interactables.Length; i++)
         {
-            if (interactables[i].GetComponent<interactable>().getInteracting() && Input.GetMouseButtonDown(0))
+            if (interactables[i].GetComponent<interactable>().getInteracting() && schedule_close)
             {
                 player_camera.GetComponent<PlayerLook>().LockCursor();
             }
         }
+        if(schedule_close)
+        {
+            player_camera.GetComponent<PlayerLook>().LockCursor();
+            schedule_window.GetComponent<closeWindow>().setWindowClose(false);
+        }
+
     }
+
+
+
 }

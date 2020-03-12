@@ -54,10 +54,10 @@ public class interactable : MonoBehaviour
                 window.SetActive(true);
                 press.SetActive(false);
             }
-            if(Input.GetMouseButtonDown(0))
-            {
-                window.SetActive(false);
-            }
+            //if(Input.GetMouseButtonDown(0))
+            //{
+            //    window.SetActive(false);
+            //}
         }
     }
 
