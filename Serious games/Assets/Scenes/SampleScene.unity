@@ -1051,7 +1051,7 @@ GameObject:
   - component: {fileID: 466223770}
   - component: {fileID: 466223769}
   m_Layer: 0
-  m_Name: interaction
+  m_Name: bed interaction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1327,7 +1327,7 @@ GameObject:
   - component: {fileID: 563723307}
   - component: {fileID: 563723306}
   m_Layer: 0
-  m_Name: interaction
+  m_Name: book interaction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1498,7 +1498,7 @@ GameObject:
   - component: {fileID: 568544001}
   - component: {fileID: 568544000}
   m_Layer: 0
-  m_Name: interaction
+  m_Name: pc interaction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2064,7 +2064,7 @@ GameObject:
   - component: {fileID: 852632841}
   - component: {fileID: 852632842}
   m_Layer: 0
-  m_Name: interaction
+  m_Name: schedule interaction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3137,24 +3137,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1971238004}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1423871180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423871179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a8a6a008741fee48a42ebaf1c55dceb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactables:
-  - {fileID: 942729055}
-  - {fileID: 466223766}
-  - {fileID: 563723303}
-  - {fileID: 568543997}
-  - {fileID: 852632838}
 --- !u!1 &1454867765
 GameObject:
   m_ObjectHideFlags: 0
