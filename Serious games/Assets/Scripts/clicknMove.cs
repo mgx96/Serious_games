@@ -10,7 +10,7 @@ public class clicknMove : MonoBehaviour
 
     public void MoveTask ()
     {
-            int i = buttonTodo.Length;
+            int i = buttonTodo.Length - 1 ;
             buttonTodo[i].SetActive(false);
             buttonActive[i].SetActive(true);
 

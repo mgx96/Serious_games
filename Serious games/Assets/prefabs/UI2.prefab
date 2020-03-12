@@ -187,7 +187,7 @@ RectTransform:
   m_Children:
   - {fileID: 6015877931768363618}
   m_Father: {fileID: 6015877931777852178}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -395,7 +395,7 @@ RectTransform:
   - {fileID: 6015877930311991662}
   - {fileID: 6015877931384887344}
   m_Father: {fileID: 6015877931777852178}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1034,7 +1034,7 @@ RectTransform:
   - {fileID: 6015877931336266917}
   - {fileID: 6015877930590790814}
   m_Father: {fileID: 6015877931777852178}
-  m_RootOrder: 3
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1265,7 +1265,7 @@ RectTransform:
   - {fileID: 6015877931362136315}
   - {fileID: 6015877930025135738}
   m_Father: {fileID: 6015877931777852178}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1877,7 +1877,7 @@ RectTransform:
   m_Children:
   - {fileID: 6015877930789719624}
   m_Father: {fileID: 6015877931777852178}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2108,7 +2108,7 @@ RectTransform:
   m_Children:
   - {fileID: 6015877931415321481}
   m_Father: {fileID: 6015877931777852178}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3258,7 +3258,7 @@ RectTransform:
   - {fileID: 6015877931442050918}
   - {fileID: 6015877930691309226}
   m_Father: {fileID: 6015877931777852178}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5271,13 +5271,13 @@ RectTransform:
   - {fileID: 5731085055710283915}
   - {fileID: 5310308054958909599}
   - {fileID: 6015877930396091702}
-  - {fileID: 6015877930091589297}
   - {fileID: 6015877929905768983}
   - {fileID: 6015877931252787638}
   - {fileID: 6015877930178257681}
   - {fileID: 6015877930404549036}
   - {fileID: 6015877929837994207}
   - {fileID: 6015877930376019065}
+  - {fileID: 6015877930091589297}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
