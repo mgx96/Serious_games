@@ -19,6 +19,7 @@ public class closeWindow : MonoBehaviour
     {
         window.SetActive(false);
         confirm.SetActive(false);
+
         window_close = true;
         //SOMETHING THAT ENABLES MOVEMENT, EVEN WITHIN INTERACTION RADIUS;
     }
