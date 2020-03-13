@@ -6,6 +6,7 @@ public class closeWindow : MonoBehaviour
 {
     public GameObject window;
     public GameObject confirm;
+    public GameObject[] buttons;
     //SOMETHING TO ENABLE MOVEMENT;
 
     bool window_close;
