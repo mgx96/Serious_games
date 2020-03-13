@@ -68,11 +68,12 @@
     <Compile Include="Assets\Scripts\PlayerLook.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\clicknMove.cs" />
+    <Compile Include="Assets\Scripts\closeWindow.cs" />
+    <Compile Include="Assets\Scripts\door.cs" />
     <Compile Include="Assets\Scripts\interactable.cs" />
     <Compile Include="Assets\Scripts\newInteraction.cs" />
     <Compile Include="Assets\Volumetric Lights\Scripts\VolumetricLight.cs" />
     <Compile Include="Assets\Volumetric Lights\Scripts\VolumetricLightRenderer.cs" />
-    <Compile Include="Assets\closeWindow.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\3D Models\Schedule\Schedule\Project.xml" />
