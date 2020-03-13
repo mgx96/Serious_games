@@ -10,9 +10,12 @@ public class PlayerMove : MonoBehaviour
 
     private CharacterController charContrller;
 
+    bool breakdown;
+
     private void Awake()
     {
         charContrller = GetComponent<CharacterController>();
+        breakdown = false;
     }
 
     private void Update()
@@ -29,5 +32,15 @@ public class PlayerMove : MonoBehaviour
         Vector3 rightMovement = transform.right * horizInput;
 
         charContrller.SimpleMove(forwardMovement + rightMovement);
+    }
+
+    public void setBreakdown(bool value)
+    {
+        breakdown = value;
+    }
+
+    public bool getBreakdown()
+    {
+        return breakdown;
     }
 }

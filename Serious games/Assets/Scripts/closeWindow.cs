@@ -12,7 +12,6 @@ public class closeWindow : MonoBehaviour
     public void youSure ()
     {
         confirm.SetActive(true);
-
     }
 
     public void closeAll ()

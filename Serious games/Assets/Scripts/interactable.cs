@@ -3,13 +3,13 @@
 public class interactable : MonoBehaviour
 {
     public float radius = 3f;
-    public Transform player;
+    public GameObject player;
     bool interacting = false;
     public bool pressed = false;
     public GameObject window;
     public GameObject press;
-    
 
+    public bool bed;
     public virtual void Interact()
     {
 
@@ -30,34 +30,66 @@ public class interactable : MonoBehaviour
     public void Update()
     {
 
-        float distance = Vector3.Distance(player.position, transform.position);
+        float distance = Vector3.Distance(player.transform.position, transform.position);
 
-        if ((distance <= radius) && (interacting == false))
-        {
-            Interact();
-            interacting = true;
-        }
-
-        if (distance > radius) 
-        {
-            interacting = false;    
-            window.SetActive(false);
-        }
-
-        if (interacting)
+        if (!player.GetComponent<PlayerMove>().getBreakdown())
         {
 
-            if (Input.GetButtonDown("Jump"))
+
+            if ((distance <= radius) && (interacting == false))
             {
-                Debug.Log("you pressed something");
-                pressed = true;
-                window.SetActive(true);
-                press.SetActive(false);
+                Interact();
+                interacting = true;
             }
-            //if(Input.GetMouseButtonDown(0))
-            //{
-            //    window.SetActive(false);
-            //}
+
+            if (distance > radius)
+            {
+                interacting = false;
+                window.SetActive(false);
+            }
+
+            if (interacting)
+            {
+
+                if (Input.GetButtonDown("Jump"))
+                {
+                    Debug.Log("you pressed something");
+                    pressed = true;
+                    window.SetActive(true);
+                    press.SetActive(false);
+                }
+
+            }
+        }
+
+        if (player.GetComponent<PlayerMove>().getBreakdown() && bed)
+        {
+
+
+            if ((distance <= radius) && (interacting == false))
+            {
+                Interact();
+                interacting = true;
+            }
+
+            if (distance > radius)
+            {
+                interacting = false;
+                window.SetActive(false);
+            }
+
+            if (interacting)
+            {
+
+                if (Input.GetButtonDown("Jump"))
+                {
+                    Debug.Log("you pressed something");
+                    pressed = true;
+                    window.SetActive(true);
+                    press.SetActive(false);
+                }
+
+            }
         }
     }
 

@@ -67,9 +67,9 @@
     <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\PlayerLook.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\WindowManager.cs" />
     <Compile Include="Assets\Scripts\clicknMove.cs" />
     <Compile Include="Assets\Scripts\closeWindow.cs" />
-    <Compile Include="Assets\Scripts\door.cs" />
     <Compile Include="Assets\Scripts\interactable.cs" />
     <Compile Include="Assets\Scripts\newInteraction.cs" />
     <Compile Include="Assets\Volumetric Lights\Scripts\VolumetricLight.cs" />
