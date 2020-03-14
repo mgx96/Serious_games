@@ -2790,6 +2790,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 466223771}
+    - target: {fileID: 160552581, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 200407645, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: Buy Food - 15 energy + 10 stress
+      objectReference: {fileID: 0}
+    - target: {fileID: 200407645, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 200407645, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 200407645, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 321593005, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 750364525, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2798,6 +2822,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 466223771}
+    - target: {fileID: 855360502, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1002006092, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2806,14 +2834,226 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 568544002}
+    - target: {fileID: 1252819791, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: Play Games - 10 energy - 10 stress
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252819791, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252819791, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252819791, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282699517, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: 'Play Games '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282699517, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282699517, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282699517, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282699517, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1308420949, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 942729060}
+    - target: {fileID: 1351283079, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: Go to Work - 40 energy + 40 stress
+      objectReference: {fileID: 0}
+    - target: {fileID: 1351283079, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1351283079, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1351283079, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372316591, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: Study - 10 energy + 5 stress
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372316591, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372316591, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372316591, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403534726, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415719294, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: Do Homework
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415719294, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415719294, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415719294, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415719294, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497622778, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548302436, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: Do Homework - 25 energy + 15 stress
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548302436, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548302436, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548302436, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593256220, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: 'Go to Work '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593256220, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593256220, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593256220, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593256220, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734408668, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867120859, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: Read A Book - 15 energy - 15 stress
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867120859, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867120859, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867120859, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2042226441, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 563723308}
+    - target: {fileID: 2056022316, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: 'Read A Book '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056022316, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056022316, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056022316, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056022316, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072068232, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: 'Buy Food '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072068232, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072068232, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072068232, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072068232, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2123939420, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_text
+      value: 'Study '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2123939420, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2123939420, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2123939420, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2123939420, guid: 6d2d45aa8b209ce459db2d78d1787459, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3020153162099729292, guid: 6d2d45aa8b209ce459db2d78d1787459,
         type: 3}
       propertyPath: m_text
@@ -2864,6 +3104,36 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6015877929746524103, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_text
+      value: Go to School
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015877929746524103, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015877929746524103, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015877929746524103, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015877929746524103, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015877929905768982, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6015877930025135739, guid: 6d2d45aa8b209ce459db2d78d1787459,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2884,6 +3154,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 466223771}
+    - target: {fileID: 6015877931325046612, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6015877931336266922, guid: 6d2d45aa8b209ce459db2d78d1787459,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2904,6 +3179,36 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 568544002}
+    - target: {fileID: 6015877931486641567, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_text
+      value: Go to School - 50 energy + 30 stress
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015877931486641567, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015877931486641567, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015877931486641567, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015877931486641567, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015877931486641567, guid: 6d2d45aa8b209ce459db2d78d1787459,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6015877931768363619, guid: 6d2d45aa8b209ce459db2d78d1787459,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
