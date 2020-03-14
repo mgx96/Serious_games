@@ -29,5 +29,7 @@ public class PlayerMove : MonoBehaviour
         Vector3 rightMovement = transform.right * horizInput;
 
         charContrller.SimpleMove(forwardMovement + rightMovement);
+
+        AudioManager.PlaySound("walk_sound 1");
     }
 }
