@@ -63,6 +63,7 @@ public class WindowManager : MonoBehaviour
     {
         health_modify = -50;
         stress_modify = 30;
+        FindObjectOfType<AudioManager>().Play("door");
 
         youSure();
     }
@@ -71,6 +72,7 @@ public class WindowManager : MonoBehaviour
     {
         health_modify = -40;
         stress_modify = 40;
+        FindObjectOfType<AudioManager>().Play("door");
 
         youSure();
     }
@@ -79,6 +81,7 @@ public class WindowManager : MonoBehaviour
     {
         health_modify = -15;
         stress_modify = 10;
+        FindObjectOfType<AudioManager>().Play("door");
         youSure();
 
     }
@@ -103,7 +106,9 @@ public class WindowManager : MonoBehaviour
     {
         health_modify = -15;
         stress_modify = -15;
+        FindObjectOfType<AudioManager>().Play("pageTurn");
         youSure();
+        
 
     }
 
@@ -111,6 +116,7 @@ public class WindowManager : MonoBehaviour
     {
         health_modify = -10;
         stress_modify = 5;
+        FindObjectOfType<AudioManager>().Play("writing");
         youSure();
 
     }
@@ -119,6 +125,7 @@ public class WindowManager : MonoBehaviour
     {
         health_modify = 100;
         stress_modify = 0;
+        FindObjectOfType<AudioManager>().Play("snoring");
         youSure();
     }
 

@@ -26,6 +26,13 @@ public class GameManager : MonoBehaviour
     bool bed_close;
     bool book_close;
 
+    //FOR THE MUSIC
+    bool playingCalm = false;
+    bool playingNearly = false;
+    bool playingLost = false;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -95,6 +102,49 @@ public class GameManager : MonoBehaviour
             book_window.GetComponent<WindowManager>().setWindowClose(false);
 
         }
+
+
+        #region mainMusic
+
+
+        if (stressBar.GetComponent<HealthBar>().slider.value < 33)
+        {
+            if (!playingCalm)
+            {
+                FindObjectOfType<AudioManager>().Play("calm");
+                playingCalm = true;
+            }
+
+        }
+        if (stressBar.GetComponent<HealthBar>().slider.value >= 33 && stressBar.GetComponent<HealthBar>().slider.value < 66)
+        {
+            FindObjectOfType<AudioManager>().StopPlaying("calm");
+            if (!playingNearly)
+            {
+                
+                FindObjectOfType<AudioManager>().Play("nearly");
+                playingNearly = true;
+
+            }
+
+        }
+
+        if (stressBar.GetComponent<HealthBar>().slider.value > 66)
+        {
+            FindObjectOfType<AudioManager>().StopPlaying("nearly");
+
+            if (!playingLost)
+            {
+                FindObjectOfType<AudioManager>().Play("lostIt");
+                playingLost = true;
+            }
+
+        }
+
+
+        #endregion
+
+
 
         if (stressBar.GetComponent<HealthBar>().slider.value == 100)
         {
