@@ -20,12 +20,14 @@ public class PlayerLook : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         locked = true;
+        Cursor.visible = false;
     }
 
     public void UnlockCursor()
     {
         Cursor.lockState = CursorLockMode.None;
         locked = false;
+        Cursor.visible = true;
     }
 
     private void Update()
